@@ -5,4 +5,7 @@ This is a practice question which handles the cash exchanges. The coustomer hand
 
 ## Try it live(CLI): https://replit.com/@SurajRai4/cashRegisterManager?embed=1&output=1
 
-## Try it live(WEB): https://cashregister-01.netlify.app
+## Try it live(WEB): https:cash-register-manager-01.netlify.app
+
+
+#### Note: Original Repo Could be found at https://github.com/devsurajrai/Practice_Questions
