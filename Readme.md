@@ -1,6 +1,6 @@
 # Cash Register Manager
 
-This is a practice question which handles the cash exchanges. The customer hands over the cash and this program tells how many coins (minimum) should be returned to the customer equavalent to his balance.
+This is a simple app to ease up the cash exchange.
 ## This app is a CLI App as well as a WEB APP
 
 ## Try it live(CLI): https://replit.com/@SurajRai4/cashRegisterManager?embed=1&output=1
