@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Cash Register</title>
+</head>
+
+<body>
+  <div class="cash-reg">
+    <h1>Cash Register</h1>
+    <div class="cash-reg__input-bill">
+      <h3>Please Enter The Bill Amount 👇</h3>
+      <input id="bill-amount" type="number" required>
+      <div class="error cash-reg__input--bill-error"></div>
+    </div>
+    <div class="cash-reg__input-customer">
+      <h3>Please Enter The Amount Given By The Customer 👇</h3>
+      <input id="received-amount" type="number">
+      <div class="error cash-reg__input--customer-error"></div>
+    </div>
+    <div class="cash-reg__output">
+      <h3>Return The Amount To The Customer 👇</h3>
+      <table>
+        <tr>
+          <th>1</th>
+          <th>5</th>
+          <th>10</th>
+          <th>20</th>
+          <th>100</th>
+          <th>500</th>
+          <th>2000</th>
+          <th>Total</th>
+        </tr>
+        <tr>
+          <td>x</td>
+          <td>x</td>
+          <td>x</td>
+          <td>x</td>
+          <td>x</td>
+          <td>x</td>
+          <td>x</td>
+        </tr>
+        <tr>
+          <td id="one"></td>
+          <td id="five"></td>
+          <td id="ten"></td>
+          <td id="twenty"></td>
+          <td id="hundred"></td>
+          <td id="five-hundred"></td>
+          <td id="two-thousand"></td>
+          <td id="total-amount"></td>
+        </tr>
+      </table>
+    </div>
+
+    <button class="cash-reg__btn cash-reg__btn--enter">Enter</button>
+    <button class="cash-reg__btn cash-reg__btn--reset">Reset</button>
+
+    <footer class="footer">
+      <div class="footer-header">
+        <span style="font-size: 20px;">Reach me</span> | devsurajrai@gmail.com
+      </div>
+      <ul class=" list-no-bullets ">
+        <li class=" list-item-inline ">
+          <a class="link footer-link-size" href="https://github.com/devsurajrai">
+            <img src="https://img.icons8.com/ios-filled/50/000000/github.png" />
+          </a>
+        </li>
+        <li class=" list-item-inline">
+          <a class="link footer-link-size" href="https://www.instagram.com/_surajrai_z/">
+            <img src="https://img.icons8.com/ios-filled/50/000000/instagram-new.png" />
+          </a>
+        </li>
+        <li class=" list-item-inline">
+          <a class="link footer-link-size" href="https://www.linkedin.com/in/sr3688/">
+            <img src="https://img.icons8.com/ios-filled/50/000000/linkedin.png" />
+          </a>
+        </li>
+        <li class="link list-item-inline">
+          <a class="link footer-link-size" href="https://twitter.com/surajrai_z">
+            <img src="https://img.icons8.com/ios-filled/50/000000/twitter.png" />
+          </a>
+        </li>
+      </ul>
+    </footer>
+    <script src="main.js"></script>
+</body>
+</div>
+
+
+
+</html>
