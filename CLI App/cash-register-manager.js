@@ -16,7 +16,7 @@ while(parseInt(cashGiven)<parseInt(billAmount)){
         console.log("Please enter a valid amount.....");
     }
 }
-console.log()
+console.log();
 
 var notes = [1, 5, 10, 20, 100, 500, 2000];
 

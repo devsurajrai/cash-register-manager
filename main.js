@@ -15,8 +15,8 @@ let five=document.querySelector('#five')
 let one=document.querySelector('#one')
 let balAmount=document.querySelector('#total-amount')
 
-notesArr=[2000,500,100,20,10,5,1]
-notesSelectorsArr=[twoThousand,fiveHundred,hundred,twenty,ten,five,one]
+notesArr=[2000,500,100,20,10,5,1];
+notesSelectorsArr=[twoThousand,fiveHundred,hundred,twenty,ten,five,one];
 
 function changeCalculation(){
   
